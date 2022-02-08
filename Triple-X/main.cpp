@@ -15,6 +15,8 @@ int main()
 	std::cout << "\n" << "*The digits in the code add up to " << CodeSum << ", while their product is " << CodeProduct << "." << std::endl;
 
 	int PlayerGuess{ 0 };
+	std::cin >> PlayerGuess;
+	std::cout << "You entered " << PlayerGuess << std::endl;
 
 	return 0;
 }
